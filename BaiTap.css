@@ -1,3 +1,117 @@
+.khung{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+.khung img{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.khung .menu{
+  top: 20px;
+	width: 60%;
+	height: 70px;
+	left: 300px;
+	/*background: red;*/
+	position: absolute;
+	}
+	.khung .menu img{
+		float: right;
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+	.khung .menu p{
+		float: right;
+		color: white;
+		font-size: 20px;
+		margin-top: 10px;
+	}
+.khung .menu .logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+	/*background: blue;*/
+}
+.khung .menu .logo img{
+width: 25%;
+height: 40px;
+float: left;
+}
+.khung .menu .logo p{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.khung .menu  ul li{
+	float: left;
+	margin-left: 30px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	}
+	.khung .menu  ul li:hover{
+		color: red;
+	}
+.khung h1{
+	color: white;
+	position: absolute;
+	top: 150px;
+	font-size: 45px;
+	left: 300px;
+	transition: 1s ease;
+}
+.khung h2{
+	color: white;
+	position: absolute;
+	top: 250px;
+	font-size: 45px;
+	left: 300px;
+	font-weight: normal;
+}
+.khung .menu .tim{
+	color: #f141fa;
+}
+.khung .o1{
+	width: 200px;
+	height: 30px;
+	border-radius:  25px;
+	background: #0c0224;
+	position: absolute;
+	top: 370px;
+	padding-top: 10px;
+	left: 300px;
+	transition: 1s ease;
+}.khung .o1 a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+
+}
+.khung .o2{
+	width: 120px;
+	height: 30px;
+	border-radius: 25px;
+	background: #0c0224;
+	position: absolute;
+	top: 370px;
+	padding-top: 10px;
+	left: 550px;
+	transition: 1s ease;
+}
+.khung .o2 a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+}
 .vungngoai{
 	width: 85%;
 	height: 650px;
@@ -116,7 +230,7 @@
 	/*background: blue;*/
 }
 .bcc .con .ss .bxx{
-	width: 23.2%;
+	width: 22.2%;
 	height: 100%;
 	background-image: linear-gradient(to right, #c92063 , #161c68);
 	float: left;
